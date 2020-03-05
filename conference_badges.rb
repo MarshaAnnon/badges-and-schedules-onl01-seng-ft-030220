@@ -13,7 +13,7 @@ end
 def assign_rooms(name)
   rooms=[]
   room = 1
-  name.each_with_index(1) do |name, room_assignment|
+  name.each_with_index(0) do |name, room_assignment|
     rooms << room_assignments = "Hello, #{name}! You'll be assigned to room #{room_assignments}!"
     room+=1
 end
