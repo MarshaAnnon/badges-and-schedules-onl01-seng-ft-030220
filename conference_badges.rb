@@ -1,6 +1,6 @@
 def badge_maker(name)
-  badge[]
+  badge = []
   name.each do |names|
-    badge = "Hello, my name is #{name}."
+    badge = names"Hello, my name is #{name}."
   end
 end
